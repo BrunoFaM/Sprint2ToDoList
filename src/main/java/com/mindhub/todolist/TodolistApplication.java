@@ -22,7 +22,7 @@ public class TodolistApplication {
 		return args -> {
 
 			UserEntity user1 = new UserEntity("el 10", "dwadawd", "ewdawd");
-			UserEntity user2 = new UserEntity("Niki", "din42848790", "brunomoron56@gmail.com");
+			UserEntity user2 = new UserEntity("Niki", "435190", "bruno56@gmail.com");
 			Task t1 = new Task("Clean", "clean the setup", TaskStatus.COMPLETED);
 			Task t2 = new Task("Cook", "I need to eat to program better", TaskStatus.PENDING);
 			Task t3 = new Task("Programing", "To be better", TaskStatus.IN_PROGRESS);
